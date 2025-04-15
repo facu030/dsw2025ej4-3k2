@@ -5,10 +5,11 @@ public class Pais {
     private String nombre;
     private String codigoIso;
 
-    public Pais(String nombre, String codigoIso) {
+    public Pais(String nombre) {
         this.nombre = nombre;
         this.codigoIso = codigoIso;
     }
+
 
     @Override
     public String toString() {
